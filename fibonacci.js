@@ -9,7 +9,6 @@ function fibcontains(){
                   fibonums.push(fiboResult)
                   i++
             }
-            console.log(fibonums)
 
             if (fibonums.includes(num)){
                   console.log(`O número: ${num} pertence a sequência de Fibonacci.`)
@@ -38,8 +37,6 @@ function fibcontains(){
                   fibonums.push(fiboResult)
                   i++
                   results = num - fibonums[i+1]
-                  console.log(results)
-                  console.log(fibonums)
             }
 
 
